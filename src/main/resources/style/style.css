@@ -1,0 +1,382 @@
+.main-pane {
+    -fx-background-color: rgb(167, 199, 231);
+}
+
+.runway {
+    -fx-background-color: rgb(177, 184, 230);
+}
+
+.menu-background {
+    -fx-background-color: #F7E6FF;
+}
+
+.runway-pane {
+    -fx-background-color: #F7E6FF;
+    -fx-stroke: black;
+}
+
+.button-menu {
+    -fx-color: rgb(255, 255, 255);
+    -fx-font-size: 17px;
+    -fx-line-height: 17px;
+    -fx-padding: 12px;
+    -fx-border-style: solid;
+    -fx-border-color: rgb(28, 110, 164);
+    -fx-font-family: Georgia, serif;
+    -fx-font-weight: normal;
+    -fx-text-decoration: none;
+    -fx-font-style: normal;
+    -fx-font-variant: normal;
+    -fx-effect: dropshadow(three-pass-box, rgba(255,255,255,0.84), 0, 0, 7, 7);
+}
+
+.button-menu:hover {
+    -fx-background-color: #1C6EA4;
+}
+
+.result{
+    -fx-font-family: "Times New Roman", Times, serif;
+    -fx-font-size: 16px;
+    -fx-letter-spacing: 1.4px;
+    -fx-word-spacing: 1.2px;
+    -fx-color:  #000000;
+    -fx-font-weight: 400;
+    -fx-text-decoration: none solid rgb(68, 68, 68);
+    -fx-font-style: normal;
+    -fx-font-variant: normal;
+}
+
+.runwayScene{
+    -fx-background-color: #EAFDFF
+}
+
+.button-menu:active {
+-fx-background-color: #144E75;
+}
+
+.polygon {
+    -fx-fill: rgb(222, 191, 224);
+}
+
+.runway-number {
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 18;
+}
+
+.heading {
+    -fx-border-color: #000000;
+    -fx-text-fill: #000000;
+    -fx-padding: 2 10 2 10;
+    -fx-font-family: Georgia, serif;
+    -fx-font-size: 25px;
+    -fx-letter-spacing: 1.6px;
+    -fx-word-spacing: 1.6px;
+    -fx-font-weight: 900;
+    -fx-text-decoration: none solid rgb(68, 68, 68);
+    -fx-font-style: italic;
+    -fx-font-variant: normal;
+    -fx-text-transform: capitalize;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 0.5, 1.0, 0, 0);
+}
+
+.notif {
+    -fx-text-fill: #2b343c;
+    -fx-padding: 7 7 7 7;
+    -fx-font-family: Verdana;
+    -fx-font-size: 25px;
+    -fx-letter-spacing: 1.6px;
+    -fx-word-spacing: 1.6px;
+    -fx-font-weight: 900;
+}
+
+.input-output-labels {
+    -fx-font-weight: 900;
+    -fx-text-fill: black;
+    -fx-font-size: 17;
+    -fx-padding: 2 10 2 10;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 0.5, 1.0, 0, 0);
+    -fx-font-family: Georgia, serif;
+    -fx-font-size: 17px;
+    -fx-letter-spacing: 1px;
+    -fx-word-spacing: 1.6px;
+    -fx-color: #000000;
+    -fx-font-weight: 700;
+    -fx-text-decoration: none solid rgb(68, 68, 68);
+    -fx-font-style: normal;
+    -fx-font-variant: normal;
+    -fx-text-transform: capitalize;
+}
+
+.input-output-labels-smaller {
+    -fx-font-weight: 900;
+    -fx-text-fill: black;
+    -fx-font-size: 14;
+    -fx-padding: 2 10 2 10;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 0.5, 1.0, 0, 0);
+    -fx-font-family: Georgia, serif;
+    -fx-font-size: 14px;
+    -fx-letter-spacing: 1px;
+    -fx-word-spacing: 1.6px;
+    -fx-color: #000000;
+    -fx-font-weight: 700;
+    -fx-text-decoration: none solid rgb(68, 68, 68);
+    -fx-font-style: normal;
+    -fx-font-variant: normal;
+    -fx-text-transform: capitalize;
+}
+
+.runway-defaults {
+    -fx-font-weight: 900;
+    -fx-text-fill: black;
+    -fx-font-size: 12;
+    -fx-padding: 2 10 2 10;
+    -fx-effect: dropshadow(gaussian, #FFFFFF, 0.5, 1.0, 0, 0);
+    -fx-font-family: Georgia, serif;
+    -fx-font-size: 12px;
+    -fx-letter-spacing: 1px;
+    -fx-word-spacing: 1.6px;
+    -fx-color: #000000;
+    -fx-font-weight: 700;
+    -fx-text-decoration: none solid rgb(68, 68, 68);
+    -fx-font-style: normal;
+    -fx-font-variant: normal;
+    -fx-text-transform: capitalize;
+}
+
+.results {
+    -fx-font-weight: 900;
+    -fx-text-fill: black;
+    -fx-font-size: 17;
+    -fx-padding: 2 10 2 10;
+    -fx-effect: dropshadow(gaussian, #DEBFE0, 0.5, 1.0, 0, 0);
+}
+
+.results-smaller {
+    -fx-font-weight: 900;
+    -fx-text-fill: black;
+    -fx-font-size: 13;
+    -fx-padding: 2 10 2 10;
+    -fx-effect: dropshadow(gaussian, #DEBFE0, 0.5, 1.0, 0, 0);
+}
+
+.results-obstacle {
+    -fx-font-weight: 900;
+    -fx-text-fill: black;
+    -fx-font-size: 14;
+    -fx-padding: 2 10 2 10;
+    -fx-border-color: grey;
+}
+
+.button-calculate {
+    -fx-background-color: #B4A5D1;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, white, 1, 1.0, 1, 1);
+}
+
+.button-calculate:hover {
+    -fx-text-fill: #402C8C;
+    -fx-effect: dropshadow(gaussian, #402C8C, 1, 1.0, 1, 1);
+}
+
+.button-calculate:pressed {
+    -fx-text-fill: white;
+    -fx-background-color: #231558;
+}
+
+.button-back {
+    -fx-background-color: #B4A5D1;
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, white, 1, 1.0, 1, 1);
+}
+
+.button-next{
+    -fx-background-color: #B4A5D1;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, white, 1, 1.0, 1, 1);
+}
+
+.button-next:hover {
+    -fx-text-fill: #402C8C;
+    -fx-effect: dropshadow(gaussian, #402C8C, 1, 1.0, 1, 1);
+}
+
+.button-next:pressed {
+    -fx-text-fill: white;
+    -fx-background-color: #231558;
+}
+
+.AddAirportScene-Style{
+    -fx-border-color: grey;
+    -fx-border-width: 11px;
+    -fx-background-insets: -20px;
+    -fx-border-radius: 20px;
+}
+
+.button-back:hover {
+    -fx-text-fill: #402C8C;
+    -fx-effect: dropshadow(gaussian, #402C8C, 1, 1.0, 1, 1);
+}
+
+.button-back:pressed {
+    -fx-text-fill: white;
+    -fx-background-color: #231558;
+}
+
+.choice-box {
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-font-size: 14;
+    -fx-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-text-fill: #444;
+    -fx-padding: 2 20 2 10;
+    -fx-min-height: 20;
+}
+
+.choice-box .arrow-button {
+    -fx-background-color: #6a6a6a;
+    -fx-background-radius: 0 5 5 0;
+    -fx-padding: 0 10 0 10;
+}
+
+.choice-box .arrow {
+    -fx-background-color: #444;
+    -fx-shape: "M 0 0 L 5 5 L 10 0 L 0 0 Z";
+}
+
+.choice-box:hover {
+    -fx-background-color: linear-gradient(to bottom, #d5edf5, #a3cdd5);
+}
+
+.choice-box:selected {
+    -fx-background-color: linear-gradient(to bottom, #a3cdd5, #d5edf5);
+}
+
+.obstacle-lines {
+    -fx-stroke: #CE380F;
+    -fx-stroke-width: 5;
+}
+
+.obstacle-rectangle {
+    -fx-fill: #CE380F;
+    -fx-stroke: #CE380F;
+}
+
+.displaced-threshold-line {
+    -fx-stroke: #CE380F;
+    -fx-stroke-width: 2;
+}
+
+.displaced-threshold-triangle {
+    -fx-fill: #CE380F;
+    -fx-stroke: #CE380F;
+}
+
+.displaced-threshold-label {
+    -fx-text-fill: #CE380F;
+    -fx-font-weight: bold;
+}
+
+.slope-label {
+    -fx-rotate: -18;
+}
+
+.red-notification {
+    -fx-font-weight: bold;
+    -fx-fill: red;
+    -fx-font-size: 14;
+}
+
+.green-notification {
+    -fx-font-weight: bold;
+    -fx-fill: green;
+    -fx-font-size: 14;
+}
+
+.black-notification {
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+}
+
+.obstacle-pane {
+    -fx-background-color: rgb(177, 184, 230);
+}
+
+.button-delete{
+    -fx-background-color: #FF6961;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, white, 1, 1.0, 1, 1);
+}
+
+.button-delete:hover {
+    -fx-text-fill: #FF2015;
+    -fx-effect: dropshadow(gaussian, #402C8C, 1, 1.0, 1, 1);
+}
+
+.button-delete:pressed {
+    -fx-text-fill: white;
+    -fx-background-color: #FF5148;
+}
+
+.border {
+    -fx-fill: transparent;
+    -fx-stroke: black;
+}
+
+.border-white {
+    -fx-fill: white;
+    -fx-stroke: black;
+}
+
+.border-pink {
+    -fx-fill: deeppink;
+    -fx-stroke: black;
+}
+
+.way-label{
+    -fx-font-size: 10px;
+}
+
+.compas-letter {
+    -fx-font-size: 14px;
+    -fx-font-weight: bolder;
+}
+
+.button-return {
+    -fx-background-color: #D0FFE0;
+    -fx-border-color: blue;
+}
+
+.button-zoom {
+  -fx-background-color: rgb(177, 184, 230);
+  -fx-background-radius: 0;
+  -fx-border-color: #000000;
+  -fx-border-radius: 0;
+  -fx-border-width: 2px;
+  -fx-font-size: 18px;
+  -fx-text-fill: #000000;
+  -fx-pref-width: 50px;
+  -fx-pref-height: 50px;
+}
+
+.button-zoom:hover {
+  -fx-background-color: #F0F0F0;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="airport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="runway" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TORA" type="xs:double"/>
+              <xs:element name="TODA" type="xs:double"/>
+              <xs:element name="ASDA" type="xs:double"/>
+              <xs:element name="LDA" type="xs:double"/>
+              <xs:element name="displaced_threshold" type="xs:double"/>
+              <xs:element name="obstacle" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="height" type="xs:double"/>
+                    <xs:element name="length" type="xs:double"/>
+                    <xs:element name="distance_threshold" type="xs:double"/>
+                    <xs:element name="distance_centerline" type="xs:double"/>
+                  </xs:sequence>
+                  <xs:attribute name="name" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="runway_designator" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name = "name" type = "xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

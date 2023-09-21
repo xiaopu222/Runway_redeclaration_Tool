@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<airport name="Gatwick">
+  <runway runway_designator="10R">
+    <TORA>500.0</TORA>
+    <TODA>500.0</TODA>
+    <ASDA>500.0</ASDA>
+    <LDA>370.0</LDA>
+    <displaced_threshold>25.0</displaced_threshold>
+  </runway>
+  <runway runway_designator="10L">
+    <TORA>4.0</TORA>
+    <TODA>4.0</TODA>
+    <ASDA>4.0</ASDA>
+    <LDA>4.0</LDA>
+    <displaced_threshold>100.0</displaced_threshold>
+  </runway>
+  <runway runway_designator="28L">
+    <TORA>1.0</TORA>
+    <TODA>11.0</TODA>
+    <ASDA>1.0</ASDA>
+    <LDA>1.0</LDA>
+    <displaced_threshold>0.0</displaced_threshold>
+  </runway>
+  <runway runway_designator="9">
+    <TORA>9.0</TORA>
+    <TODA>9.0</TODA>
+    <ASDA>9.0</ASDA>
+    <LDA>9.0</LDA>
+    <displaced_threshold>9.0</displaced_threshold>
+  </runway>
+</airport

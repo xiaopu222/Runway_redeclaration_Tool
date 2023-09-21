@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="airport">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="runway" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="TORA" type="xsd:double"/>
+              <xsd:element name="TODA" type="xsd:double"/>
+              <xsd:element name="ASDA" type="xsd:double"/>
+              <xsd:element name="LDA" type="xsd:double"/>
+              <xsd:element name="displaced_threshold" type="xsd:double"/>
+              <xsd:element name="obstacle" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="height" type="xsd:double"/>
+                    <xsd:element name="length" type="xsd:double"/>
+                    <xsd:element name="distance_threshold" type="xsd:double"/>
+                    <xsd:element name="distance_centerline" type="xsd:double"/>
+                  </xsd:sequence>
+                  <xsd:attribute name="name" type="xsd:string" use="required"/>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="runway_designator" type="xsd:string" use="required"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name = "name" type = "xsd:string" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

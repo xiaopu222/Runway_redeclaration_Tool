@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<airport name="Heathrow">
+  <runway runway_designator="3">
+    <TORA>3.0</TORA>
+    <TODA>3.0</TODA>
+    <ASDA>3.0</ASDA>
+    <LDA>2.0</LDA>
+    <displaced_threshold>0.0</displaced_threshold>
+    <obstacle name="obbb">
+      <height>1.0</height>
+      <length>10.0</length>
+      <distance_threshold>80.0</distance_threshold>
+      <distance_centerline>1.0</distance_centerline>
+    </obstacle>
+    <obstacle name="myObstacle">
+      <height>100.0</height>
+      <length>10.0</length>
+      <distance_threshold>65.0</distance_threshold>
+      <distance_centerline>10.0</distance_centerline>
+    </obstacle>
+    <obstacle name="new">
+      <height>50.0</height>
+      <length>50.0</length>
+      <distance_threshold>100.0</distance_threshold>
+      <distance_centerline>75.0</distance_centerline>
+    </obstacle>
+  </runway>
+</airport>
